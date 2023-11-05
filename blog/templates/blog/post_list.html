@@ -9,6 +9,14 @@
     <a href="#">Wellcome to Multiparedes' blog</a>
     <main>
         <h2>Blog entries: </h2>
+
+        {% for post in posts %} 
+        <div>
+            <p>{{post.published_date}}</p>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text | linebreaksbr }}</p>
+        </div>
+        {% endfor %}
     </main>
 
 </body>
