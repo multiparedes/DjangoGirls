@@ -1,8 +1,20 @@
-<html>
-<header class="">
-    <h1>Marti's Django Girls Blog</h1>
-</header>
-<head>
-    <title>Django Blog</title>
-</head>
-</html>
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+        <div>
+            <div class="flex flex-col align-contents-center gap-4">
+                <div class="flex gap-2 items-baseline">
+                <h2 class="text-2xl font-semibold"><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h2>
+                <small>By {{post.author}}</small>
+                </div>
+                <p>{{post.text|linebreaksbr}}</p>
+                <small class="text-slate-700 italic">Published at {{post.published_date}}</small>
+            </div>
+
+            {% if not forloop.last %}
+                <hr class="mt-6 text-slate-300">
+            {% endif %}
+        </div>
+    {% endfor %}
+{% endblock %}
