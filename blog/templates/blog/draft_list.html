@@ -1,15 +1,15 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-    {% for post in posts %}
+    {% for draft in drafts %}
         <div>
             <div class="flex flex-col align-contents-center gap-4">
                 <div class="flex gap-2 items-baseline">
-                <h2 class="text-2xl font-semibold"><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h2>
-                <small>By {{post.author}}</small>
+                <h2 class="text-2xl font-semibold"><a href="{% url 'post_detail' pk=draft.pk %}">{{draft.title}}</a></h2>
+                <small>By {{draft.author}}</small>
                 </div>
-                <p>{{post.text|linebreaksbr|truncatechars:100}}</p>
-                <small class="text-slate-700 italic">Published at {{post.published_date}}</small>
+                <p>{{draft.text|linebreaksbr|truncatechars:100}}</p>
+                <small class="text-slate-700 italic">Created at {{draft.created_date}}</small>
             </div>
 
             {% if not forloop.last %}
