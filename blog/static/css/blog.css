@@ -29,6 +29,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 button {
+    width: fit-content;
     padding: 10px;
     padding-inline: 26px;
     background: #007bff;
