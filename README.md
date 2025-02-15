@@ -17,17 +17,25 @@ El tutorial de Django Girls es una excelente introducción al desarrollo web con
 git clone https://github.com/multiparedes/DjangoGirls.git
 cd djangogirls
 ```
-2️⃣ Crear un Entorno Virtual
+### 2️⃣ Crear un Entorno Virtual
 ```sh
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
-3️⃣ Instalar Dependencias
+### 3️⃣ Instalar Dependencias
 ```sh
 pip install -r requirements.txt
 ```
 
-4️⃣ Aplicar Migraciones y Ejecutar el Servidor
+### 4️⃣ Crear un Superusuario
+```sh
+python manage.py createsuperuser
+```
+Sigue las instrucciones en la terminal para establecer un nombre de usuario, correo electrónico y contraseña.
+Luego, accede al panel en http://127.0.0.1:8000/admin/ e inicia sesión con las credenciales creadas.
+
+
+### 5️⃣ Aplicar Migraciones y Ejecutar el Servidor
 ```sh
 python manage.py migrate
 python manage.py runserver
@@ -42,6 +50,7 @@ Accede a https://multiparedes.pythonanywhere.com/ para ver la versión completa 
 
 
 ## ✨ Mejoras y Extensiones
+
 Tras completar el tutorial base, se implementaron las siguientes mejoras:
 
 - 📌 Funcionalidades extra desde el tutorial de extensiones

@@ -2,4 +2,3 @@
 .venv
 static/
 
-db.sqlite3
