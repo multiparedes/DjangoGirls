@@ -14,8 +14,8 @@
 <body>
     <header class="w-screen p-4 bg-green-500 text-white px-8 flex justify-between items-center md:flex-row gap-4 flex-col">
         <h1 class="text-4xl font-bold"><a href="/">Marti's Django Girls Blog</a></h1>
-        {% if user.is_authenticated %}
         <div class="flex gap-4">
+            {% if user.is_authenticated %}
              <a href="{% url 'draft_list' %}" class="px-2 py-1 bg-green-600 rounded-full grid hover:bg-green-900 transition-colors duration-200">
                 <span class="flex gap-1 px-3 py-1 justify-center items-center">Drafts
                  <svg  class="py-1" width="28px" height="28px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -30,8 +30,17 @@
                 </svg>
                 </span>
             </a>
+            <form method="post" action="{% url 'logout' %}"
+            class="px-4 py-2 bg-green-600 rounded-full grid place-contents-center hover:bg-green-900 transition-colors duration-200">
+                {% csrf_token %}
+                <button class="ghost">Logout</button>
+            </form>
+            {% else %}
+            <a href="{% url 'login' %}" class="px-2 py-1 bg-green-600 rounded-full grid place-contents-center hover:bg-green-900 transition-colors duration-200 ">
+                <span class="flex gap-1 px-3 py-1 justify-center items-center">Login</span>
+            </a>
+            {% endif %}
         </div>
-        {% endif %}
     </header>
     <main class="flex flex-col gap-y-4 container mx-auto mt-4 gap-2 p-2">
         {% block content %}

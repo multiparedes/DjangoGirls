@@ -53,7 +53,7 @@ button {
 button.outline {
     color: #007bff !important;
     background: transparent !important;
-    box-shadow: inset 0 0 0 2px #007bff !important; /* Simula el outline hacia adentro */
+    box-shadow: inset 0 0 0 2px #007bff !important;
 }
 
 button:hover {
@@ -61,7 +61,7 @@ button:hover {
 }
 
 button.outline:hover {
-    background:  #007bff  !important;
+    background: #007bff !important;
     color: white !important;
 }
 
@@ -83,4 +83,29 @@ button.error.outline {
 button.error.outline:hover {
     background: #dc3545 !important;
     color: white !important;
+}
+
+button.success {
+    background: #28a745 !important;
+    color: white !important;
+}
+
+button.success:hover {
+    background: #1e7e34 !important;
+}
+
+button.success.outline {
+    color: #28a745 !important;
+    background: transparent !important;
+    box-shadow: inset 0 0 0 2px #28a745 !important;
+}
+
+button.success.outline:hover {
+    background: #28a745 !important;
+    color: white !important;
+}
+
+button.ghost {
+    background: transparent;
+    padding: 0 !important;
 }
