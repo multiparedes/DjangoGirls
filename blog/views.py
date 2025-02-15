@@ -82,6 +82,7 @@ def post_comment_approve(request, pk):
     comment.approve()
     return redirect('post_detail', comment.post.pk)
 
+@login_required
 def post_comment_delete(request, pk):
     comment = get_object_or_404(Comment, pk=pk)
     comment.delete()

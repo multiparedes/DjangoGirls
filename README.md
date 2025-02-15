@@ -34,12 +34,18 @@ python manage.py createsuperuser
 Sigue las instrucciones en la terminal para establecer un nombre de usuario, correo electrónico y contraseña.
 Luego, accede al panel en http://127.0.0.1:8000/admin/ e inicia sesión con las credenciales creadas.
 
-
 ### 5️⃣ Aplicar Migraciones y Ejecutar el Servidor
 ```sh
 python manage.py migrate
 python manage.py runserver
 ```
+### 5️⃣ Cargar los Datos de Prueba
+Si deseas cargar datos de prueba (posts y comentarios) a la base de datos, sigue estos pasos:
+```sh
+python manage.py loaddata seeds/posts_dump.json
+python manage.py loaddata seeds/comments_dump.json
+```
+Este comando cargará los datos de ejemplo de posts y comentarios desde el archivo JSON en la base de datos. Asegúrate de que la base de datos esté vacía o que no haya conflictos con los datos existentes.
 
 Accede a http://127.0.0.1:8000/ en tu navegador.
 

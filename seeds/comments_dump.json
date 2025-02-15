@@ -1,0 +1,321 @@
+[
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "post": 1,
+        "author": "Carolina García",
+        "text": "Great post! I’ve been working with Vue.js for some time now, but your perspective on using it for mobile applications was eye-opening. I would love to see a more in-depth tutorial on how to structure a Vue.js mobile app from scratch, especially with Vuex for state management. Keep up the awesome work!",
+        "created_date": "2024-11-06T12:35:34.197Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+        "post": 2,
+        "author": "Valeria Morales",
+        "text": "This article was very insightful! The way you explained the importance of database optimization is something I've been trying to understand for a while. Could you provide more examples of how to implement these strategies in real-world applications? I think it would help a lot of developers, including myself, to grasp the concept better.",
+        "created_date": "2025-01-28T12:35:34.197Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+        "post": 3,
+        "author": "Simón Romero",
+        "text": "I totally agree with your point about the future of AI in development. It’s clear that artificial intelligence will be a game-changer for many industries. However, I think it would be helpful if you discussed some of the potential challenges developers might face when implementing AI and how to overcome them. Looking forward to more posts on this topic!",
+        "created_date": "2024-12-11T12:35:34.197Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+        "post": 4,
+        "author": "Valeria Morales",
+        "text": "Thanks for sharing your insights on mobile app development with Vue.js. The example code you included was clear, but I wonder how this approach would work for larger projects with more complex features. It would be interesting to see how Vue handles scalability and performance with large apps. Can you share some strategies for managing large-scale apps in Vue?",
+        "created_date": "2025-01-11T12:35:34.197Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+        "post": 4,
+        "author": "Simón Romero",
+        "text": "I think you’ve nailed the importance of database indexing in your article. However, I would love to see a post that compares different database technologies for scalability. Are there any specific databases you would recommend for applications that expect rapid growth and high traffic? How can we optimize these databases effectively?",
+        "created_date": "2024-12-06T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+        "post": 5,
+        "author": "David Sánchez",
+        "text": "The section on sustainable application development really resonated with me. As developers, we often focus on speed and features, but long-term sustainability should always be a priority. Could you elaborate on best practices for minimizing technical debt? How can we ensure that the applications we build today remain maintainable and scalable as they grow?",
+        "created_date": "2024-04-28T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+        "post": 5,
+        "author": "Isabel Torres",
+        "text": "I love how you tackled the topic of security in web development. One area I think could use more explanation is how to secure APIs properly. I’ve heard of OAuth 2.0, but I’m not quite sure how to implement it correctly in my projects. A more detailed post on secure API integration would be really helpful!",
+        "created_date": "2024-05-02T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+        "post": 6,
+        "author": "Martín Ortega",
+        "text": "Thanks for sharing your insights on mobile app development with Vue.js. The example code you included was clear, but I wonder how this approach would work for larger projects with more complex features. It would be interesting to see how Vue handles scalability and performance with large apps. Can you share some strategies for managing large-scale apps in Vue?",
+        "created_date": "2024-12-25T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 9,
+    "fields": {
+        "post": 6,
+        "author": "Beatriz Jiménez",
+        "text": "Great post! I’ve been working with Vue.js for some time now, but your perspective on using it for mobile applications was eye-opening. I would love to see a more in-depth tutorial on how to structure a Vue.js mobile app from scratch, especially with Vuex for state management. Keep up the awesome work!",
+        "created_date": "2024-08-10T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 10,
+    "fields": {
+        "post": 7,
+        "author": "Valeria Morales",
+        "text": "The design tips you’ve shared here are spot on. I’ve always been focused on functionality, but after reading this, I realize how much design can influence user experience. Could you write more about how to conduct A/B testing for different design elements to see what resonates best with users? That would be very valuable.",
+        "created_date": "2024-04-15T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 11,
+    "fields": {
+        "post": 7,
+        "author": "Carlos Delgado",
+        "text": "I found your post on optimizing website speed very useful. One thing I’m still curious about is how to reduce JavaScript execution time in larger apps. Are there specific tools or techniques you would recommend for analyzing and reducing script execution delays? I’ve heard of Webpack, but I’d like to know more about how to leverage it for performance improvements.",
+        "created_date": "2024-07-15T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 12,
+    "fields": {
+        "post": 7,
+        "author": "Elena Pérez",
+        "text": "Great post! I’ve been working with Vue.js for some time now, but your perspective on using it for mobile applications was eye-opening. I would love to see a more in-depth tutorial on how to structure a Vue.js mobile app from scratch, especially with Vuex for state management. Keep up the awesome work!",
+        "created_date": "2024-03-18T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 13,
+    "fields": {
+        "post": 8,
+        "author": "Valeria Morales",
+        "text": "This post was very helpful for optimizing my website’s performance. I’ve already implemented lazy loading for images and reduced the size of my JavaScript files. What other performance improvements would you suggest for improving mobile site speed? Any tips on reducing resource-heavy animations would be greatly appreciated.",
+        "created_date": "2024-06-18T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 14,
+    "fields": {
+        "post": 8,
+        "author": "Nicolás Ruiz",
+        "text": "I agree with your take on the growing role of DevOps in software development. However, I feel that there could be more focus on how to implement a continuous integration/continuous deployment (CI/CD) pipeline for small teams. Can you provide a detailed guide on setting up a CI/CD pipeline with GitLab or GitHub Actions? I think this would be incredibly helpful for beginners in DevOps.",
+        "created_date": "2024-04-25T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 15,
+    "fields": {
+        "post": 8,
+        "author": "David Sánchez",
+        "text": "The design tips you’ve shared here are spot on. I’ve always been focused on functionality, but after reading this, I realize how much design can influence user experience. Could you write more about how to conduct A/B testing for different design elements to see what resonates best with users? That would be very valuable.",
+        "created_date": "2024-03-04T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 16,
+    "fields": {
+        "post": 9,
+        "author": "David Sánchez",
+        "text": "The section on sustainable application development really resonated with me. As developers, we often focus on speed and features, but long-term sustainability should always be a priority. Could you elaborate on best practices for minimizing technical debt? How can we ensure that the applications we build today remain maintainable and scalable as they grow?",
+        "created_date": "2024-09-18T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 17,
+    "fields": {
+        "post": 9,
+        "author": "David Sánchez",
+        "text": "The section on sustainable application development really resonated with me. As developers, we often focus on speed and features, but long-term sustainability should always be a priority. Could you elaborate on best practices for minimizing technical debt? How can we ensure that the applications we build today remain maintainable and scalable as they grow?",
+        "created_date": "2025-01-27T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 18,
+    "fields": {
+        "post": 10,
+        "author": "Martín Ortega",
+        "text": "I found your post on optimizing website speed very useful. One thing I’m still curious about is how to reduce JavaScript execution time in larger apps. Are there specific tools or techniques you would recommend for analyzing and reducing script execution delays? I’ve heard of Webpack, but I’d like to know more about how to leverage it for performance improvements.",
+        "created_date": "2024-03-31T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 19,
+    "fields": {
+        "post": 10,
+        "author": "Javier González",
+        "text": "You’ve really got me thinking about the future of development work in your article. The rise of remote teams and automation is already starting to affect how we collaborate, but I wonder how the industry will change in the next 10 years. Will developers be replaced by AI? What skills do you think we should focus on developing to stay relevant in the evolving tech landscape?",
+        "created_date": "2025-01-11T12:35:34.198Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 20,
+    "fields": {
+        "post": 10,
+        "author": "Valeria Morales",
+        "text": "I agree with your take on the growing role of DevOps in software development. However, I feel that there could be more focus on how to implement a continuous integration/continuous deployment (CI/CD) pipeline for small teams. Can you provide a detailed guide on setting up a CI/CD pipeline with GitLab or GitHub Actions? I think this would be incredibly helpful for beginners in DevOps.",
+        "created_date": "2024-11-20T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 21,
+    "fields": {
+        "post": 11,
+        "author": "David Sánchez",
+        "text": "Thanks for the insights into AI and its impact on software development. The examples you provided were easy to understand, but I’d love to know more about how AI can improve the testing phase of software development. Are there any AI-driven tools or platforms that can help automate testing, especially for large-scale applications?",
+        "created_date": "2025-02-13T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 22,
+    "fields": {
+        "post": 12,
+        "author": "David Sánchez",
+        "text": "Great post! I’ve been working with Vue.js for some time now, but your perspective on using it for mobile applications was eye-opening. I would love to see a more in-depth tutorial on how to structure a Vue.js mobile app from scratch, especially with Vuex for state management. Keep up the awesome work!",
+        "created_date": "2024-10-07T12:35:34.198Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 23,
+    "fields": {
+        "post": 13,
+        "author": "Javier González",
+        "text": "Thanks for sharing your insights on mobile app development with Vue.js. The example code you included was clear, but I wonder how this approach would work for larger projects with more complex features. It would be interesting to see how Vue handles scalability and performance with large apps. Can you share some strategies for managing large-scale apps in Vue?",
+        "created_date": "2024-03-09T12:35:34.199Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 24,
+    "fields": {
+        "post": 13,
+        "author": "Elena Pérez",
+        "text": "I enjoyed reading your post on REST APIs. I’ve been building APIs for a while, but I’m still struggling with versioning and ensuring backward compatibility. Could you explain more about how to handle versioning in a RESTful API, especially when making breaking changes? Also, are there any tools you recommend to streamline this process?",
+        "created_date": "2025-02-12T12:35:34.199Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 25,
+    "fields": {
+        "post": 14,
+        "author": "Raúl López",
+        "text": "This post was very helpful for optimizing my website’s performance. I’ve already implemented lazy loading for images and reduced the size of my JavaScript files. What other performance improvements would you suggest for improving mobile site speed? Any tips on reducing resource-heavy animations would be greatly appreciated.",
+        "created_date": "2024-10-14T12:35:34.199Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 26,
+    "fields": {
+        "post": 14,
+        "author": "Raúl López",
+        "text": "The section on sustainable application development really resonated with me. As developers, we often focus on speed and features, but long-term sustainability should always be a priority. Could you elaborate on best practices for minimizing technical debt? How can we ensure that the applications we build today remain maintainable and scalable as they grow?",
+        "created_date": "2024-09-16T12:35:34.199Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 27,
+    "fields": {
+        "post": 15,
+        "author": "Javier González",
+        "text": "The design tips you’ve shared here are spot on. I’ve always been focused on functionality, but after reading this, I realize how much design can influence user experience. Could you write more about how to conduct A/B testing for different design elements to see what resonates best with users? That would be very valuable.",
+        "created_date": "2024-09-24T12:35:34.199Z",
+        "approved_comment": false
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 28,
+    "fields": {
+        "post": 15,
+        "author": "David Sánchez",
+        "text": "I love how you tackled the topic of security in web development. One area I think could use more explanation is how to secure APIs properly. I’ve heard of OAuth 2.0, but I’m not quite sure how to implement it correctly in my projects. A more detailed post on secure API integration would be really helpful!",
+        "created_date": "2024-04-30T12:35:34.199Z",
+        "approved_comment": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 29,
+    "fields": {
+        "post": 15,
+        "author": "Javier González",
+        "text": "I enjoyed reading your post on REST APIs. I’ve been building APIs for a while, but I’m still struggling with versioning and ensuring backward compatibility. Could you explain more about how to handle versioning in a RESTful API, especially when making breaking changes? Also, are there any tools you recommend to streamline this process?",
+        "created_date": "2024-08-23T12:35:34.199Z",
+        "approved_comment": false
+    }
+}
+]

@@ -16,5 +16,7 @@
                 <hr class="mt-6 text-slate-300">
             {% endif %}
         </div>
+    {% empty %}
+        <p>No drafts yet, start writing a post!.</p>
     {% endfor %}
 {% endblock %}
